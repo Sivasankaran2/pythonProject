@@ -5,7 +5,7 @@ Library  SeleniumLibrary
 *** Test Cases ***
 LoginTest
     open browser    https://www.google.co.in/  Chrome
-    Press Keys   xpath://input[@name='q']    Python+ENTER
+    Press Keys   xpath://input[@name='q']    Python ha ha ha+ENTER
     ${AllLinksCount}=  get element count  xpath://h3
     log to console   ${AllLinksCount}
 
